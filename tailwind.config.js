@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
       sm: "480px",
@@ -16,6 +16,9 @@ export default {
       slBlack: "#1D1E16",
       slGold: "#ECB947",
       slWine: "#862729",
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat', "sans-serif"]
     },
     extend: {},
   },
