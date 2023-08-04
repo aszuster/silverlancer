@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* Fonts */
 @font-face {
@@ -35,19 +39,74 @@ body {
   min-height: 100vh;
 }
 
+
 .hero-text{
-  top: 32%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width:100%;
+}
+
+@media only screen and (min-width: 920px) {
+  .hero-text{
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .shield-text{
   left:0;
   right:0;
-
+  top: 135%;
   margin-left: auto;
   margin-right: auto;
 
 }
 
+@media only screen and (min-width: 920px) {
+  .shield-text{
+    left:0;
+    right:0;
+    top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+}
 
+
+/* Scroll to top */
+
+.top-to-btm {
+  position: fixed;
+  width: 100%;
+  right: 2rem;
+  bottom: 3rem;
+  height: 35px;
+  width: 35px;
+  font-size: 3rem;
+  z-index: 999;
+  cursor: pointer;
+  color: #ECB947;
+}
+
+@media only screen and (min-width: 920px) {
+  .top-to-btm {
+    right: 3rem;
+    bottom: 7rem;
+  }
+}
+
+/* .testimonial-bg{
+  background-image: url(images/testimonials/star.svg), url(images/testimonials/star.svg), url(images/testimonials/star.svg);
+  background-position:  top 180px left 0px, top 50% right, bottom right;
+  background-size: 12px, 14px, 19px;
+  background-repeat: no-repeat, no-repeat;
+} */
+
+
+.swiper-pagination-bullet-active {
+  background: #ECB947;
+}
