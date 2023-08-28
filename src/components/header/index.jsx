@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
 import logo from "../../images/logo.svg"
-import linkedin from "../../images/icon-li.svg"
-import twitter from "../../images/icon-tw.svg"
-import insta from "../../images/icon-insta.svg"
+import linkedin from "../../images/icon-li.png"
+import twitter from "../../images/icon-tw.png"
+import insta from "../../images/icon-insta.png"
 
 const Header = () => {
     let Links =[
@@ -37,19 +37,19 @@ const Header = () => {
                 {
                     Links.map((link) => (
                     <li className='md:ml-12 md:my-0 my-7 text-slBeige font-montserrat font-normal text-[17px]'>
-                        <a href={link.link} className='navbar-link duration-500 font-montserrat font-normal text-[17px]'>{link.name}</a>
+                        <a href={link.link} className='navbar-link duration-500 font-montserrat font-normal text-[17px] underlineAnim'>{link.name}</a>
                     </li>))
                 }
             </ul>
             {/* button */}
             <div className="hidden md:flex gap-[40px] self-center">
-        <a href="">
+        <a href="" className='social'>
         <img src={linkedin} alt="" />
         </a>
-        <a href="">
+        <a href="" className='social'>
         <img src={twitter} alt="" />
         </a>
-        <a href="">
+        <a href="" className='social'>
         <img src={insta} alt="" />
         </a>
       </div>

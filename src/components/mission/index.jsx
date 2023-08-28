@@ -9,13 +9,13 @@ import quill from "../../images/mission/quill.svg";
 const Mission = () => {
   return (
     <div className="bg-slBeige overflow-hidden lg:overflow-auto" id="mission">
-      <section className="lg:h-screen mx-[20px] lg:mx-[230px] lg:grid lg:grid-cols-3  gap-x-[170px] py-[50px] lg:py-[9%]">
+      <section className="lg:h-screen mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] lg:grid lg:grid-cols-3 gap-y-[50px] xl:gap-y-[0px] xxxl:gap-y-[0px]  gap-x-[170px] xl:gap-x-[90px] xxxl:gap-x-[170px] py-[50px] lg:py-[9%]">
         <h2 className="adelle text-[45px] text-center lg:text-left lg:text-[75px] font-light text-slLightBlue leading-[65px] mb-[50px] lg:mb-0">
           Our Quest
         </h2>
         <div className="flex items-start gap-[20px] mb-[30px] lg:mb-0">
           <img src={scroll} alt="" className="w-[74px]" />
-          <div>
+          <div className="pl-[2px]">
           <h4 className="font-montserrat font-medium text-[20px] lg:text-[24px] text-slLightBlue leading-[29px] pb-[5px]">Efficient, quality service</h4>
           <p className="font-montserrat text-slBlack text-[17px] font-light leading-[21px]">
             If you choose SilverLancer to localize your product, you can rest
@@ -26,7 +26,7 @@ const Mission = () => {
         </div>
         <div className="flex flex-row-reverse lg:flex-row items-start gap-[20px] mb-[30px] lg:mb-0">
         
-          <img src={helmet} alt="" className="w-[74px] px-[10px] lg:px-0" />
+          <img src={helmet} alt="" className="w-[74px] px-[10px] lg:px-[10px]" />
      
           <div>
           <h4 className="font-montserrat font-medium text-[20px] lg:text-[24px] text-slLightBlue leading-[29px] pb-[5px]">Translator crediting</h4>

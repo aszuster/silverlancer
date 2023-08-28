@@ -89,7 +89,7 @@ body {
   font-size: 3rem;
   z-index: 999;
   cursor: pointer;
-  color: #ECB947;
+
 }
 
 @media only screen and (min-width: 920px) {
@@ -109,4 +109,66 @@ body {
 
 .swiper-pagination-bullet-active {
   background: #ECB947;
+}
+
+.btn-anim{
+  transition: all 0.2s linear;
+}
+
+.btn-anim:hover {
+  background: #ECB947;
+}
+
+.termslink{
+  transition: all 0.2s linear;
+}
+.termslink:hover{
+color:#ECB947;
+}
+
+.social{
+  transition: all 0.2s linear;
+}
+
+.social:hover{
+  transform: translate(0, -15%);
+}
+
+/* Underline Animation */
+
+.underlineAnim {
+  position: relative;
+}
+
+.underlineAnim::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FDF8ED;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underlineAnim:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+}
+
+
+.hero-bg{
+ background: top 0% center/contain no-repeat url(./images/hero/hero-img-mb.png);
+}
+
+@media only screen and (min-width: 920px) {
+
+  .hero-bg{
+    background: top 0% center/contain no-repeat url(./images/hero/hero-img-dsk.png);
+    background-size: 100%;
+   }
 }

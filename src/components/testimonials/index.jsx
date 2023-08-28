@@ -12,7 +12,7 @@ import star from "../../images/testimonials/star.svg";
 const Testimonials = () => {
   return (
     <div className="bg-slBeige py-[50px] lg:py-[100px] overflow-hidden lg:oveflow-visible" id="testimonials">
-      <section className="mx-[20px] lg:mx-[230px]">
+      <section className="mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px]">
         <h2 className="text-center adelle text-slLightBlue text-[45px] lg:text-[75px] font-light leading-[65px] pb-[10px]">
           Victory!
         </h2>
@@ -20,7 +20,7 @@ const Testimonials = () => {
           what our clients have to say
         </p>
         {/* Testimonials Desktop */}
-        <div className="hidden  lg:grid grid-cols-3 gap-x-[200px] gap-y-[90px] mt-[95px] testimonial-bg relative">
+        <div className="hidden  lg:grid grid-cols-3 lg:gap-x-[100px] xxl:gap-x-[200px] gap-y-[90px] mt-[95px] testimonial-bg relative">
           <img
             className="hidden lg:block lg:absolute w-[12px] top-[180px] left-[-30px]"
             src={star}

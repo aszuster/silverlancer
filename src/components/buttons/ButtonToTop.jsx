@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowUpCircleIcon } from '@heroicons/react/24/solid'
 
-import up from "../../images/up.svg"
+import up from "../../images/button-up.png"
 
 const ToTop = () => {
 
