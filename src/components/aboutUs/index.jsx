@@ -11,7 +11,8 @@ import helmSantiago from "../../images/about-us/helm-santiago.svg"
 
 const AboutUs = () => {
   return (
-    <div className="bg-slBeige overflow-hidden lg:overflow-visible py-[100px] lg:py-0" id="aboutus">
+    <div className="bg-slBeige overflow-hidden lg:overflow-visible py-[100px] lg:py-5 relative" >
+        <div id="aboutus" className="absolute top-[40px]"></div>
       <section className="mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px]">
         <h2 className="adelle text-[45px] leading-[45px] lg:text-[75px] text-slLightBlue leading-[45px] lg:leading-[65px] font-light text-center mb-[50px] lg:mb-[100px]">Meet The Lancers</h2>
         <div className="lg:grid lg:grid-cols-2 gap-x-[100px] gap-y-[75px] mb-[90px] lg:px-[100px] xl:px-0 xxxl:px-[100px]">

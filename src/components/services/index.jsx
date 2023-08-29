@@ -9,8 +9,9 @@ import diamond from "../../images/services/diamond.svg"
 
 const Services = () => {
   return (
-    <div className="bg-slBeige pb-[100px] lg:py-[100px]" id="services">
-      <section className="lg:h-screen mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] flex flex-col justify-center">
+    <div  className="bg-slBeige pb-[100px] lg:py-[100px]">
+      <div id="services" className="services absolute top-[1040px]"></div>
+      <section   className="lg:h-screen mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] flex flex-col justify-center">
         <div className="flex flex-col items-center justify-between">
           <img src={swords} alt="" className="max-w-[100px] lg:max-w-[142px]" />
           <h2 className="text-slLightBlue adelle text-[45px] leading-[45px] lg:text-[75px] text-center py-[15px] lg:py-[30px]">
@@ -74,9 +75,9 @@ const Services = () => {
         <div className="mx-auto">
           <p className="text-center max-w-[446px] font-montserrat font-light text-[17px] text-slBlack leading-[21px] pb-[20px]">To know more about how these processes apply to your product, feel free to contact us</p>
 <div className="mx-auto text-center relative">
-<button className="btn-anim bg-slLightBlue py-[10px] lg:py-[24px] px-[24px] lg:px-[48px] text-slBeige font-montserrat font-semibold text-[18px] lg:text-[24px] rounded-[46px] shadow-[0_2px_5px_2px_rgba(29,30,22,0.2)]">
+<a href="#contact"><button onclick="window.location.href = '#contact';" className="btn-anim bg-slLightBlue py-[10px] lg:py-[24px] px-[24px] lg:px-[48px] text-slBeige font-montserrat font-semibold text-[18px] lg:text-[24px] rounded-[46px] shadow-[0_2px_5px_2px_rgba(29,30,22,0.2)]">
   Quote Your Project
-</button>
+</button></a>
 <img src={coins} alt="" className="w-[65px] lg:w-[88px] absolute top-[50px] lg:top-[85px] left-1/2 transform -translate-x-1/2 -translate-y-1/2"/>
 </div>
         </div>

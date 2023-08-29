@@ -1,29 +1,18 @@
 import { useState } from "react";
 ;import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
 //Sections
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Services from "./components/services";
-import Mission from "./components/mission";
-import AboutUs from "./components/aboutUs";
-import Testimonials from "./components/testimonials";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import Home from "./pages/Home";
+import TermsAndServices from "./pages/TermsAndServices";
 
 function App() {
 
   return (
-    <>
-      <Header/>
-      <Hero />
-      <Services />
-      <Mission />
-      <AboutUs />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
+    <Routes>
+<Route path="/" element={<Home/>}/>
+<Route path="/terms-and-services" element={<TermsAndServices/>} />
+    </Routes>
   );
 }
 

@@ -8,7 +8,8 @@ import quill from "../../images/mission/quill.svg";
 
 const Mission = () => {
   return (
-    <div className="bg-slBeige overflow-hidden lg:overflow-auto" id="mission">
+    <div className="bg-slBeige overflow-hidden lg:overflow-auto relative" >
+      <div id="mission" className="absolute top-[-100px]"></div>
       <section className="lg:h-screen mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] lg:grid lg:grid-cols-3 gap-y-[50px] xl:gap-y-[0px] xxxl:gap-y-[0px]  gap-x-[170px] xl:gap-x-[90px] xxxl:gap-x-[170px] py-[50px] lg:py-[9%]">
         <h2 className="adelle text-[45px] text-center lg:text-left lg:text-[75px] font-light text-slLightBlue leading-[65px] mb-[50px] lg:mb-0">
           Our Quest
