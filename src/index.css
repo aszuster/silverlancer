@@ -166,7 +166,7 @@ color:#ECB947;
  background: top 0% center/contain no-repeat url(./images/hero/hero-img-mb.png);
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 768px) {
 
   .hero-bg{
     background: top 0% center/contain no-repeat url(./images/hero/hero-img-dsk.png);

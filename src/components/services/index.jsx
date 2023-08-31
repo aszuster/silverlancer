@@ -10,8 +10,8 @@ import diamond from "../../images/services/diamond.svg"
 const Services = () => {
   return (
     <div  className="bg-slBeige pb-[100px] lg:py-[100px] relative">
-      <div id="services" className="services absolute top-[-100px] lg:top-[-60px] xxxl:top-[70px]"></div>
-      <section   className=" mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] flex flex-col justify-center">
+      <div id="services" className="services absolute top-[-100px] lg:top-[0px] xxxl:top-[0px]"></div>
+      <section  className=" mx-[20px] md:max-w-[75%] lg:max-w-[90%] xl:max-w-[80%] md:mx-auto xxxl:mx-[220px] flex flex-col justify-center">
         <div className="flex flex-col items-center justify-between">
           <img src={swords} alt="" className="max-w-[100px] lg:max-w-[142px]" />
           <h2 className="text-slLightBlue adelle text-[45px] leading-[45px] lg:text-[75px] text-center py-[15px] lg:py-[30px]">
