@@ -49,14 +49,14 @@ const Header = () => {
             </ul>
             {/* button */}
             <div className="hidden lg:flex gap-[40px] self-center">
-        <a href="" className='social'>
-        <img src={linkedin} alt="https://www.linkedin.com/company/silverlancerloc/" />
+        <a href="https://www.linkedin.com/company/silverlancerloc/" className='social'>
+        <img src={linkedin} alt="" />
         </a>
-        <a href="" className='social'>
-        <img src={twitter} alt="https://twitter.com/silverlancerloc" />
+        <a href="https://twitter.com/silverlancerloc" className='social'>
+        <img src={twitter} alt="" />
         </a>
-        <a href="" className='social'>
-        <img src={insta} alt="https://www.instagram.com/silverlancerloc/" />
+        <a href="https://www.instagram.com/silverlancerloc/" className='social'>
+        <img src={insta} alt="" />
         </a>
       </div>
            </div>
