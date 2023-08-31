@@ -11,9 +11,9 @@ import star from "../../images/testimonials/star.svg";
 
 const Testimonials = () => {
   return (
-    <div className="bg-slBeige py-[50px] lg:py-[100px] overflow-hidden lg:oveflow-visible relative" >
+    <div className="hidden bg-slBeige py-[50px] lg:py-[100px] overflow-hidden lg:oveflow-visible relative" >
        <div id="testimonials" className="absolute top-[-50px] lg:top-[-40px]"></div>
-      <section className="mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px]">
+      <section className="mx-[20px] md:max-w-[75%] lg:max-w-[90%] xl:max-w-[80%] md:mx-auto xxxl:mx-[220px]">
         <h2 className="text-center adelle text-slLightBlue text-[45px] lg:text-[75px] font-light leading-[65px] pb-[10px]">
           Victory!
         </h2>

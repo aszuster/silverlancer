@@ -10,7 +10,7 @@ const Mission = () => {
   return (
     <div className="bg-slBeige overflow-hidden relative" >
       <div id="mission" className="absolute top-[-40px] lg:top-[-20px] xl:top-[-120px] xxxl:top-[-150px]"></div>
-      <section className=" mx-[20px] lg:max-w-[90%] xl:max-w-[80%] lg:mx-auto xxxl:mx-[220px] lg:grid lg:grid-cols-3 gap-y-[50px]   gap-x-[170px] xl:gap-x-[90px] xxxl:gap-x-[170px] py-[50px] lg:py-[9%]">
+      <section className=" mx-[20px] md:max-w-[75%] lg:max-w-[90%] xl:max-w-[80%] md:mx-auto xxxl:mx-[220px] lg:grid lg:grid-cols-3 gap-y-[50px]   gap-x-[170px] xl:gap-x-[90px] xxxl:gap-x-[170px] py-[50px] lg:py-[9%]">
         <h2 className="adelle text-[45px] text-center lg:text-left lg:text-[75px] font-light text-slLightBlue leading-[65px] mb-[50px] lg:mb-0">
           Our Quest
         </h2>
