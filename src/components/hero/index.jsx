@@ -19,8 +19,8 @@ Lancers!</h1>
     <div className="hidden lg:flex text-center mx-auto lg:mt-[100px] xxl:mt-[150px] xxxl:mt-[200px] max-w-[700px] gap-[25px] items-center">
       <p className="text-slLightBlue font-montserrat font-normal max-w-[264px] ">We are a team of professional translators specialized in board games, video games, webcomics, and related content.</p>
       <img src={shield} alt="" className="mx-auto my-[30px]"/>
-      <p className="text-slLightBlue font-montserrat font-normal">We take pride in offering 100%<br/><br/>
-human translations.
+      <p className="text-slLightBlue font-montserrat font-normal">We take pride in offering 100%
+human translations.<br/><br/>
 Our Lancers are at your service.</p>
     </div>
 </div>
