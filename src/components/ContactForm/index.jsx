@@ -5,7 +5,7 @@ import Button from "../buttons/Button";
 
 function ContactForm() {
   const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/62d60920-32f3-11ee-b436-9790aa40195d";
+  "https://public.herotofu.com/v1/c26bd150-32fb-11ee-9093-f9d31d228b92";
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
