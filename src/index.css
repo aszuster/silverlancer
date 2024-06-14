@@ -107,6 +107,10 @@ body {
   background-repeat: no-repeat, no-repeat;
 } */
 
+.swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+}
 
 .swiper-pagination-bullet-active {
   background: #ECB947;

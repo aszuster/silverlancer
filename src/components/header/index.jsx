@@ -13,7 +13,8 @@ const Header = () => {
         {name:"Services",link:"/#services"},
         {name:"Mission",link:"/#mission"},
         {name:"About Us",link:"/#aboutus"},
-        // {name:"Testimonials",link:"/#testimonials"},
+        {name:"Testimonials",link:"/#testimonials"},
+        {name:"Portfolio",link:"/#portfolio"},
         {name:"Contact",link:"/#contact"},
       ];
       let [open, setOpen] =useState(false);

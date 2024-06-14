@@ -5,6 +5,7 @@ import Services from "../components/services";
 import Mission from "../components/mission";
 import AboutUs from "../components/aboutUs";
 import Testimonials from "../components/testimonials";
+import Portfolio from "../components/portfolio"
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 
@@ -19,6 +20,7 @@ function Home() {
       <Mission />
       <AboutUs />
       <Testimonials />
+      <Portfolio/>
       <Contact />
       <Footer />
       </>
