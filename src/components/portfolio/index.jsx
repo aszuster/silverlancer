@@ -99,7 +99,7 @@ const Portfolio = () => {
               /> */}
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-                Tokyo Debunker
+              Tea for Sana (Steam Page)
               </p>
             </div>
           </SwiperSlide>
