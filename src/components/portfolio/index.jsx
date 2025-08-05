@@ -40,7 +40,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
-            <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
+            <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
             {/* <img
               src={teaforsana}
               alt=""
@@ -48,7 +48,7 @@ const Portfolio = () => {
             /> */}
 
             <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-              Tea for Sana (Steam Page)
+              Princess Ursula
             </p>
           </div>
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
@@ -64,6 +64,18 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
+            <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
+            {/* <img
+              src={teaforsana}
+              alt=""
+              className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
+            /> */}
+
+            <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Tea for Sana (Steam Page)
+            </p>
+          </div>
+          <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
             <a href="https://store.steampowered.com/app/3487380/Outlawyer/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/outlawyer.jpg')] bg-contain bg-no-repeat bg-center"></a>
             {/* <img
               src={teaforsana}
@@ -73,18 +85,6 @@ const Portfolio = () => {
 
             <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
               Outlawyer (Steam Page)
-            </p>
-          </div>
-          <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
-            <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
-            {/* <img
-              src={teaforsana}
-              alt=""
-              className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
-            /> */}
-
-            <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-              Princess Ursula (Full Game)
             </p>
           </div>
         </div>
@@ -127,15 +127,10 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
-              {/* <img
-                src={teaforsana}
-                alt=""
-                className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
-              /> */}
+              <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-                Tea for Sana (Steam Page)
+              Princess Ursula
               </p>
             </div>
           </SwiperSlide>
@@ -150,19 +145,24 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <a href="https://store.steampowered.com/app/3487380/Outlawyer/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/outlawyer.jpg')] bg-contain bg-no-repeat bg-center"></a>
+              <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
+              {/* <img
+                src={teaforsana}
+                alt=""
+                className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
+              /> */}
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-              Outlawyer (Steam Page)
+                Tea for Sana (Steam Page)
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
+              <a href="https://store.steampowered.com/app/3487380/Outlawyer/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/outlawyer.jpg')] bg-contain bg-no-repeat bg-center"></a>
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-              Princess Ursula (Full Game)
+              Outlawyer (Steam Page)
               </p>
             </div>
           </SwiperSlide>
