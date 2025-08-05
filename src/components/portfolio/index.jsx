@@ -24,11 +24,11 @@ const Portfolio = () => {
         {/* // CHANGE WHEN 3 OR MORE TESTIMONIALS */}
         {/* Change div class for the following: */}
         {/* hidden lg:grid grid-cols-3 lg:gap-x-[100px] gap-y-[90px] mt-[95px] testimonial-bg relative */}
-        <div className="hidden lg:grid grid-cols-2 mt-[95px] testimonial-bg relative">
+        <div className=" hidden lg:grid grid-cols-3 lg:gap-x-[100px] gap-y-[90px] mt-[95px] testimonial-bg relative">
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
             {/* Change cards width class (w-[400]) for the following: */}
             {/* w-full */}
-            <div className="border-4 border-slGold rounded-3xl w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/ogp.png')] bg-contain bg-no-repeat bg-center"></div>
+            <a href="https://play.google.com/store/apps/details?id=com.zigzagame.tokyodebunker&hl=en_US" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in transform-a rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/ogp.png')] bg-contain bg-no-repeat bg-center"></a>
             {/* <img
               src={tokyodeb}
               alt=""
@@ -40,7 +40,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
-            <div className="border-4 border-slGold rounded-3xl w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></div>
+            <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
             {/* <img
               src={teaforsana}
               alt=""
@@ -49,6 +49,42 @@ const Portfolio = () => {
 
             <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
               Tea for Sana (Steam Page)
+            </p>
+          </div>
+          <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
+            <a href="https://tienda.maldon.com.ar/productos/akropolis-athena/?srsltid=AfmBOor8cGtpRSg_YYwMuT4F3t6cj8y8_4hZAne8RdTpsQid_Ih7wJQH" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-[#F9F2E8] bg-[url('images/portfolio/athena.jpg')] bg-contain bg-no-repeat bg-center"></a>
+            {/* <img
+              src={teaforsana}
+              alt=""
+              className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
+            /> */}
+
+            <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Akropolis Athena (Board Game)
+            </p>
+          </div>
+          <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
+            <a href="https://store.steampowered.com/app/3487380/Outlawyer/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/outlawyer.jpg')] bg-contain bg-no-repeat bg-center"></a>
+            {/* <img
+              src={teaforsana}
+              alt=""
+              className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
+            /> */}
+
+            <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Outlawyer (Steam Page)
+            </p>
+          </div>
+          <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
+            <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold hover:border-slLightBlue duration-300 ease-in rounded-3xl w-full h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
+            {/* <img
+              src={teaforsana}
+              alt=""
+              className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
+            /> */}
+
+            <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Princess Ursula (Full Game)
             </p>
           </div>
         </div>
@@ -82,7 +118,7 @@ const Portfolio = () => {
                 alt=""
                 className="border-4 border-slGold rounded-3xl max-w-[333px] md:max-w-[450px] mx-auto "
               /> */}
-              <div className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/ogp.png')] bg-contain bg-no-repeat bg-center"></div>
+              <a href="https://play.google.com/store/apps/details?id=com.zigzagame.tokyodebunker&hl=en_US" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/ogp.png')] bg-contain bg-no-repeat bg-center"></a>
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
                 Tokyo Debunker
@@ -91,7 +127,7 @@ const Portfolio = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <div className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></div>
+              <a href="https://store.steampowered.com/app/2976880/Tea_for_Sana/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/tea-for-sana.jpg')] bg-contain bg-no-repeat bg-center"></a>
               {/* <img
                 src={teaforsana}
                 alt=""
@@ -99,7 +135,34 @@ const Portfolio = () => {
               /> */}
 
               <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
-              Tea for Sana (Steam Page)
+                Tea for Sana (Steam Page)
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col justify-between">
+              <a href="https://tienda.maldon.com.ar/productos/akropolis-athena/?srsltid=AfmBOor8cGtpRSg_YYwMuT4F3t6cj8y8_4hZAne8RdTpsQid_Ih7wJQH" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-[#F9F2E8] bg-[url('images/portfolio/athena.jpg')] bg-contain bg-no-repeat bg-center"></a>
+
+              <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Akropolis Athena (Board Game)
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col justify-between">
+              <a href="https://store.steampowered.com/app/3487380/Outlawyer/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/outlawyer.jpg')] bg-contain bg-no-repeat bg-center"></a>
+
+              <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Outlawyer (Steam Page)
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col justify-between">
+              <a href="https://store.steampowered.com/app/3474790/Princess_Ursula/" target="_blank" className="border-4 border-slGold rounded-3xl w-full md:max-w-[400px] h-[200px] mx-auto bg-slBlack bg-[url('images/portfolio/princess_ursula.jpg')] bg-contain bg-no-repeat bg-center"></a>
+
+              <p className="text-center text-[17px] font-montserrat font-light text-slBlack pt-[30px]">
+              Princess Ursula (Full Game)
               </p>
             </div>
           </SwiperSlide>

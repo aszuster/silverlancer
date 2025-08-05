@@ -134,17 +134,15 @@ const Testimonials = () => {
               <span className="italic">Pillow Soup Games</span>
             </p>
           </div>
-          {/* <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between">
             <p className="text-center text-[24px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud."
+              "Thanks to SilverLancer Localizations for their great work on the Spanish version. They were an excellent team to work with and made great suggestions for the style and tone of the characters. I’m very happy to be able to provide the game to Latin-American Spanish speakers! I can warmly recommend their team."
             </p>
-            <p className="text-center text-[17px] font-montserrat font-light text-slBlack">
-              Finibus Bonorum,
-              <span className="italic">minim et Malorum</span>
+            <p className="text-center text-[20px] font-montserrat font-bold text-slBlack">
+            Kevin,
+              <span className="italic"> Small is Beautiful Studio</span>
             </p>
-          </div> */}
+          </div>
           {/* <div className="flex flex-col justify-between">
             <p className="text-center text-[24px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -220,7 +218,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <p className="text-center text-[24px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
+              <p className="text-center text-[17px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
                 "SilverLancer localized my Steam page from English to Latin American Spanish, and so far they've been a breeze to work with. Their team is professional, responsive, and communicative about asking questions or making suggestions that help the original text sound more natural in LatAm Spanish. The process was an open dialogue, helping our respective workflows mesh together and ensuring that I felt comfortable with the end result. I would trust them with any new localization projects going forward!"
               </p>
               <p className="text-center text-[20px] font-montserrat font-bold text-slBlack">
@@ -228,19 +226,17 @@ const Testimonials = () => {
               </p>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
+          <SwiperSlide>
             <div className="flex flex-col justify-between">
-              <p className="text-center text-[24px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud."
+              <p className="text-center text-[17px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
+                "Thanks to SilverLancer Localizations for their great work on the Spanish version. They were an excellent team to work with and made great suggestions for the style and tone of the characters. I’m very happy to be able to provide the game to Latin-American Spanish speakers! I can warmly recommend their team."
               </p>
-              <p className="text-center text-[17px] font-montserrat font-light text-slBlack">
-                Finibus Bonorum,
-                <span className="italic">minim et Malorum</span>
+              <p className="text-center text-[20px] font-montserrat font-bold text-slBlack">
+              Kevin,
+                <span className="italic"> Small is Beautiful Studio</span>
               </p>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
           {/* <SwiperSlide>
             <div className="flex flex-col justify-between">
               <p className="text-center text-[24px] font-montserrat font-light text-slBlack leading-[29px] pb-[23px]">
