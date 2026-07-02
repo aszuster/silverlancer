@@ -28,11 +28,7 @@ const SoloMisions = () => {
           Our Lancer's Solo Dungeons*
         </h2>
         <p className="text-center font-montserrat font-light text-slBlack text-[14px] lg:text-[16px] max-w-[700px] mx-auto pb-[60px]">
-          SL is not affiliated to nor partnered with any of the previously
-          mentioned localization groups. These are just samples of individual
-          portfolios belonging to members of SL, and should not be interpreted
-          nor construed as any kind of partnership with the aforementioned
-          companies
+          SL is not affiliated to nor partnered with any of the localization groups under which these projects were carried out. These are just samples of individual portfolios belonging to members of SL, and should not be interpreted nor construed as any kind of partnership with the aforementioned companies.
         </p>
         {/* <div className=" hidden lg:grid grid-cols-3 lg:gap-x-[100px] gap-y-[90px] mt-[95px] testimonial-bg relative">
           <div className="flex flex-col justify-between mt-[20px] lg:mt-[70px]">
@@ -402,7 +398,7 @@ const SoloMisions = () => {
                 <img
                   src={helmSantiago}
                   alt=""
-                  className="absolute top-[50px] left-[-45px] w-[90px] lg:w-auto"
+                  className="absolute top-[50px] left-[-55px] w-[90px] lg:w-auto"
                 />
                 <img
                   src={santiago}
