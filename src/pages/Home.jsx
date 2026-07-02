@@ -8,6 +8,7 @@ import Testimonials from "../components/testimonials";
 import Portfolio from "../components/portfolio"
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import SoloMisions from "../components/solo";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <AboutUs />
       <Testimonials />
       <Portfolio/>
+      <SoloMisions/>
       <Contact />
       <Footer />
       </>

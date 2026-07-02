@@ -1,25 +1,43 @@
-import { useState } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import "./App.css";
-import {
-  Routes,
-  Route,
-  BrowserRouter as Router,
-  useLocation,
-} from "react-router-dom";
-import { useLayoutEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Lenis from "lenis";
 
-//Sections
 import Home from "./pages/Home";
 import TermsAndServices from "./pages/TermsAndServices";
 
-function App() {
-  const Wrapper = ({ children }) => {
-    const location = useLocation();
-    useLayoutEffect(() => {
+let lenisInstance = null;
+
+function Wrapper({ children }) {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    if (lenisInstance) {
+      lenisInstance.scrollTo(0, { immediate: true });
+    } else {
       document.documentElement.scrollTo(0, 0);
-    }, [location.pathname]);
-    return children;
-  };
+    }
+  }, [location.pathname]);
+  return children;
+}
+
+function App() {
+  useEffect(() => {
+    const lenis = new Lenis();
+    lenisInstance = lenis;
+
+    let rafId;
+    function raf(time) {
+      lenis.raf(time);
+      rafId = requestAnimationFrame(raf);
+    }
+    rafId = requestAnimationFrame(raf);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      lenis.destroy();
+      lenisInstance = null;
+    };
+  }, []);
 
   return (
     <Wrapper>
